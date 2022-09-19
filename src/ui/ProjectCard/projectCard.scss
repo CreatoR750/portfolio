@@ -1,0 +1,150 @@
+@import "../../assets/colors/colors.scss";
+
+.card {
+    width: 380px;
+    height: 280px;
+    border-radius: 15px;
+    position: relative;
+
+    &__hover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 1;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: $darkGray;
+        padding: 15px;
+        text-align: center;
+        transition: all 0.3s ease;
+
+        &:hover {
+            opacity: 1;
+        }
+
+        &:hover + .card__container span {
+            transform: scale(1.2);
+        }
+
+        span {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        a {
+            text-decoration: none;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: none;
+            color: #ffffff;
+            border: 1px solid $golden;
+            width: 50%;
+            border-radius: 20px;
+            height: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            &:hover {
+                background-color: $golden;
+            }
+        }
+    }
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        transition: all 0.1s ease;
+        
+        span {
+            transition: all 0.3s ease;
+        }
+    }
+
+    &__title {
+        display: flex;
+        align-items: center;
+        color: #ffffff;
+        font-size: 40px;
+        font-weight: 600;
+        
+        img {
+            width: 50px;
+        }
+    }
+}
+
+/*&__hover {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background-color: $darkGray;
+        padding: 15px;
+        text-align: center;
+        transition: all 0.3s ease;
+        span {
+            color: #ffffff;
+            font-size: 24px;
+        }
+
+        button {
+            background: none;
+            color: #ffffff;
+            border: 1px solid $golden;
+            width: 50%;
+            border-radius: 20px;
+            height: 50px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            &:hover {
+                background-color: $golden;
+            }
+        }
+    }
+
+    &__container {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        transition: all 0.4s ease;
+        z-index: 0;
+
+        &:hover  {
+            opacity: 0;
+        }
+
+        span {
+            transition: all 0.3s ease;
+        }
+        &:hover span {
+            transform: scale(1.2);
+        }
+    }
+    */

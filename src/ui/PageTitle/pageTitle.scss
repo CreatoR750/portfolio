@@ -1,0 +1,13 @@
+@import "../../assets/colors/colors.scss";
+
+.page-title {
+    height: 75px;
+    border-bottom: 4px solid $golden;
+    &__wrapper {
+        height: 75px;
+        display: flex;
+        align-items: center;
+        font-size: 32px;
+        font-weight: 400;
+    }
+}

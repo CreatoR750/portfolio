@@ -1,0 +1,83 @@
+@import "../../assets/colors/colors.scss";
+.modal {
+    &__back {
+        position: relative;
+        width: 100vw;
+        height: 100vh;
+        background-color: rgba(200, 200, 200, 0.548);
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__close-btn {
+        position: absolute;
+        right: 20px;
+        font-size: 24px;
+        cursor: pointer;
+        
+    }
+    &__wrapper {
+        background: #ffffff;
+        width: 500px;
+        height: 400px;
+        border-radius: 15px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px;
+    }
+    &__header {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        &__title {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        span {
+            color: $golden;
+            font-weight: 600;
+        }
+    }
+    &__inputs {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 150px;
+    }
+    &__button {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.send-btn {
+    background: #ffffff;
+    width: 50%;
+    height: 50px;
+    border-radius: 5px;
+    border: 2px solid $golden;
+    cursor: pointer;
+}
+
+.custom-input {
+    font-size: 18px;
+    width: 100%;
+    border: none;
+    text-decoration: none;
+    border-bottom: 1px solid #425e92;
+    &:focus {
+        outline: none;
+        border-bottom: 3px solid $golden;
+    }
+}

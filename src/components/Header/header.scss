@@ -1,0 +1,48 @@
+@import "../../assets/colors/colors.scss";
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+
+    h1 {
+        font-size: 36px;
+        font-weight: 600;
+        color: $darkGray;
+        cursor: pointer;
+    }
+
+    &__navbar {
+        display: flex;
+        width: 60%;
+        justify-content: space-between;
+
+        .navbar__link {
+            display: inline-block;
+            position: relative;
+            font-weight: 400;
+
+            &::after {
+                content: "";
+                position: absolute;
+                width: 100%;
+                transform: scaleX(0);
+                height: 2px;
+                bottom: 0;
+                left: 0;
+                background-color: $golden;
+                transform-origin: bottom right;
+                transition: transform 0.25s ease-out;
+            }
+
+            &:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+        }
+        a {
+            font-weight: 400;
+        }
+    }
+}

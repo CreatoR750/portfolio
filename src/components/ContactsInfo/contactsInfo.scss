@@ -1,0 +1,58 @@
+@import "../../assets/colors/colors.scss";
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+    height: 670px;
+    padding: 40px 0;
+    align-items: center;
+
+    &__info {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 350px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 250px;
+        a {
+            margin-left: 25px;
+            font-weight: 24px;
+            font-weight: 500;
+        }
+    }
+
+    &__send {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        height: 80px;
+        span {
+            font-size: 24px;
+            color: $golden;
+            font-weight: 600;
+        }
+        button {
+            background: none;
+            border: 1px solid $darkGray;
+            border-radius: 5px;
+            width: 70%;
+            cursor: pointer;
+            &:hover {
+                color: $golden;
+            }
+        }
+    }
+
+    &__avatar {
+        img {
+            height: 500px;
+        }
+    }
+}
