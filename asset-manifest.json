@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.82121d99.css",
+    "main.js": "/portfolio/static/js/main.09a3041a.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/mainPageAvatar.png": "/portfolio/static/media/mainPageAvatar.331fe7e6a1bd0eb5f475.png",
+    "static/media/contacts.png": "/portfolio/static/media/contacts.379dba1a05564c13dd96.png",
+    "static/media/skills.png": "/portfolio/static/media/skills.db59e7e26c310663f64b.png",
+    "static/media/aboutMe.png": "/portfolio/static/media/aboutMe.925295b5020ace97ce19.png",
+    "static/media/imageExplorerBack.png": "/portfolio/static/media/imageExplorerBack.ca2e05b544d42a8c4570.png",
+    "static/media/tamaBack.png": "/portfolio/static/media/tamaBack.219f9d8efefe0457e921.png",
+    "static/media/anyRentBack.png": "/portfolio/static/media/anyRentBack.ba45f24cb7d4d37f3613.png",
+    "static/media/imageExplorerLogo.png": "/portfolio/static/media/imageExplorerLogo.674686525ae641aee9b3.png",
+    "static/media/reactTableBack.png": "/portfolio/static/media/reactTableBack.ed638502b98981772644.png",
+    "static/media/anyrentLogo.svg": "/portfolio/static/media/anyrentLogo.62b6df9407f424fbd099553dbbe0cb84.svg",
+    "index.html": "/portfolio/index.html",
+    "static/media/arrow.svg": "/portfolio/static/media/arrow.c3034aae90ee06ccded1aef98ae7cf5b.svg",
+    "main.82121d99.css.map": "/portfolio/static/css/main.82121d99.css.map",
+    "main.09a3041a.js.map": "/portfolio/static/js/main.09a3041a.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.82121d99.css",
+    "static/js/main.09a3041a.js"
+  ]
+}
