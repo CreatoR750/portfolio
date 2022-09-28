@@ -8,16 +8,33 @@ const Header = () => {
             <div className="header">
                 <h1 onClick={() => navigate("/")}>Anton Strelnikov</h1>
                 <div className="header__navbar">
-                    <NavLink style={{ textDecoration: "none" }} className="navbar__link" to="/about-me">
+                    <NavLink
+                        style={{ textDecoration: "none" }}
+                        className={({ isActive }) => (isActive ? "navbar__link active" : "navbar__link")}
+                        to="/about-me"
+                    >
                         About me
                     </NavLink>
-                    <NavLink style={{ textDecoration: "none" }} className="navbar__link" to="/skills">
+                    <NavLink
+                        style={{ textDecoration: "none" }}
+                    
+                        className={({ isActive }) => (isActive ? "navbar__link active" : "navbar__link")}
+                        to="/skills"
+                    >
                         Skills
                     </NavLink>
-                    <NavLink style={{ textDecoration: "none" }} className="navbar__link" to="/projects">
+                    <NavLink
+                        style={{ textDecoration: "none" }}
+                        className={({ isActive }) => (isActive ? "navbar__link active" : "navbar__link")}
+                        to="/projects"
+                    >
                         Projects
                     </NavLink>
-                    <NavLink style={{ textDecoration: "none" }} className="navbar__link" to="/contacts">
+                    <NavLink
+                        style={{ textDecoration: "none" }}
+                        className={({ isActive }) => (isActive ? "navbar__link active" : "navbar__link")}
+                        to="/contacts"
+                    >
                         Contacts
                     </NavLink>
                 </div>

@@ -22,6 +22,13 @@
             display: inline-block;
             position: relative;
             font-weight: 400;
+            .active a {
+                color: $golden;
+            }
+
+            &:visited {
+                color: inherit;
+            }
 
             &::after {
                 content: "";
@@ -40,9 +47,6 @@
                 transform: scaleX(1);
                 transform-origin: bottom left;
             }
-        }
-        a {
-            font-weight: 400;
         }
     }
 }
