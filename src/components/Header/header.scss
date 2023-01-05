@@ -22,12 +22,15 @@
             display: inline-block;
             position: relative;
             font-weight: 400;
+            color: inherit;
             .active a {
                 color: $golden;
             }
 
             &:visited {
-                color: inherit;
+                &.active {
+                    color: $golden;
+                }
             }
 
             &::after {

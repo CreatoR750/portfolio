@@ -13,7 +13,7 @@
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
-        height: 350px;
+        height: 370px;
     }
     &__item {
         display: flex;
@@ -32,18 +32,20 @@
         align-items: center;
         justify-content: space-between;
         flex-direction: column;
-        height: 80px;
+        height: 90px;
         span {
             font-size: 24px;
             color: $golden;
             font-weight: 600;
         }
         button {
-            background: none;
-            border: 1px solid $darkGray;
-            border-radius: 5px;
+            background: #ffffff;
             width: 70%;
+            height: 50px;
+            border-radius: 5px;
+            border: 2px solid $golden;
             cursor: pointer;
+            transition: all ease 0.2s;
             &:hover {
                 color: $golden;
             }

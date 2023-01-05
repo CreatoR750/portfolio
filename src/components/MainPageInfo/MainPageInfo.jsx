@@ -5,7 +5,7 @@ import arrow from "../../assets/img/arrow.svg";
 import { useNavigate } from "react-router-dom";
 
 const MainPageInfo = () => {
-    let navigate = useNavigate();
+    const navigate = useNavigate();
     return (
         <div className="container">
             <div className="main-page">
